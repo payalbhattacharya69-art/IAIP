@@ -1,5 +1,10 @@
 # IAIP
+
+---
+
 ## 📊 Superstore Sales Data Analysis
+
+---
 
 ### 📌 Project Overview
 
