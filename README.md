@@ -142,3 +142,83 @@ superstore.csv
 ---
 
 <img width="1118" height="652" alt="image" src="https://github.com/user-attachments/assets/4fea18f7-ae72-4666-b8fc-e39b34cbcff7" />
+
+---
+---
+---
+
+# 📊 Superstore Sales Data Analysis
+
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-green)
+![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-purple)
+
+---
+
+## 📌 Project Overview
+This project analyzes a retail **Superstore dataset** to uncover insights into sales trends, product performance, and profitability.
+
+---
+
+## 🎯 Objectives
+- Analyze sales trends 📈  
+- Identify top-performing products 🏆  
+- Understand regional performance 🌍  
+- Perform profit analysis 💰  
+- Explore seasonal patterns 📅  
+
+---
+
+## 🛠️ Tools & Technologies
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+
+---
+
+## 📂 Dataset
+- `superstore.csv`
+- 51,290 rows
+- 27 columns
+
+---
+
+## ⚙️ Steps Performed
+### 1. Data Cleaning
+- Converted date columns
+- Removed duplicates
+- Checked missing values
+
+### 2. Feature Engineering
+- Extracted Year, Month, Month Name
+
+### 3. Analysis & Visualization
+- Monthly Sales Trend 📈  
+- Yearly Sales 📊  
+- Top 10 Products 🏆  
+- Category-wise Sales 📦  
+- Region-wise Sales 🌍  
+- Seasonal Analysis 📅  
+- Profit Analysis 💰  
+- Correlation Heatmap 🔥  
+
+---
+
+## 📊 Key Insights
+- Sales show seasonal variation  
+- Top products drive majority revenue  
+- Discounts impact profitability  
+- Profit ≠ Sales always  
+
+---
+
+## 💾 Output
+- `cleaned_superstore.csv`
+
+---
+
+## ▶️ How to Run
+```bash
+pip install pandas matplotlib seaborn
