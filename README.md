@@ -4,6 +4,11 @@
 
 ## 📊 Superstore Sales Data Analysis
 
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-green)
+![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-purple)
+
 ---
 
 ### 📌 Project Overview
@@ -15,21 +20,21 @@ Using Python libraries, the data is cleaned, processed, and visualized to suppor
 
 ### 🎯 Objectives
 
-* Analyze **sales trends over time**
-* Identify **top-performing products**
-* Understand **category-wise and region-wise performance**
-* Perform **profit analysis**
-* Explore **seasonal patterns**
-* Identify relationships between variables using correlation
+- * Analyze **sales trends over time**
+- * Identify **top-performing products**
+- * Understand **category-wise and region-wise performance**
+- * Perform **profit analysis**
+- * Explore **seasonal patterns**
+- * Identify relationships between variables using correlation
 
 ---
 
 ### 🛠️ Tools & Technologies
 
-* Python 🐍
-* Pandas (Data Manipulation)
-* Matplotlib (Data Visualization)
-* Seaborn (Advanced Visualization)
+- * Python 🐍
+- * Pandas (Data Manipulation)
+- * Matplotlib (Data Visualization)
+- * Seaborn (Advanced Visualization)
 
 ---
 
