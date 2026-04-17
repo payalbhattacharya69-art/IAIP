@@ -138,3 +138,4 @@ superstore.csv
 
 ---
 
+<img width="1118" height="652" alt="image" src="https://github.com/user-attachments/assets/4fea18f7-ae72-4666-b8fc-e39b34cbcff7" />
