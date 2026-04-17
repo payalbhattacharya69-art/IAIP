@@ -20,33 +20,33 @@ Using Python libraries, the data is cleaned, processed, and visualized to suppor
 
 ### 🎯 Objectives
 
-- * Analyze **sales trends over time**
-- * Identify **top-performing products**
-- * Understand **category-wise and region-wise performance**
-- * Perform **profit analysis**
-- * Explore **seasonal patterns**
-- * Identify relationships between variables using correlation
+- Analyze **sales trends over time**
+- Identify **top-performing products**
+- Understand **category-wise and region-wise performance**
+- Perform **profit analysis**
+- Explore **seasonal patterns**
+- Identify relationships between variables using correlation
 
 ---
 
 ### 🛠️ Tools & Technologies
 
-- * Python 🐍
-- * Pandas (Data Manipulation)
-- * Matplotlib (Data Visualization)
-- * Seaborn (Advanced Visualization)
+- Python 🐍
+- Pandas (Data Manipulation)
+- Matplotlib (Data Visualization)
+- Seaborn (Advanced Visualization)
 
 ---
 
 ### 📂 Dataset
 
-* File: `superstore.csv`
-* Records: 51,290 rows
-* Features: 27 columns including:
+- File: `superstore.csv`
+- Records: 51,290 rows
+- Features: 27 columns including:
 
-  * Sales, Profit, Quantity
-  * Customer & Product details
-  * Order & Shipping data
+  - Sales, Profit, Quantity
+  - Customer & Product details
+  - Order & Shipping data
 
 ---
 
@@ -54,43 +54,43 @@ Using Python libraries, the data is cleaned, processed, and visualized to suppor
 
 #### 1. Data Loading
 
-* Imported dataset using Pandas
+- Imported dataset using Pandas
 
 #### 2. Data Cleaning
 
-* Converted date columns (`Order.Date`, `Ship.Date`) to datetime
-* Removed duplicate records
-* Checked for missing values (none found ✅)
+- Converted date columns (`Order.Date`, `Ship.Date`) to datetime
+- Removed duplicate records
+- Checked for missing values (none found ✅)
 
 #### 3. Feature Engineering
 
-* Extracted:
+- Extracted:
 
-  * Year
-  * Month
-  * Month Name
+  - Year
+  - Month
+  - Month Name
 
 #### 4. Data Analysis & Visualization
 
 The following analyses were performed:
 
-1. 📈 **Monthly Sales Trend**
-2. 📊 **Yearly Sales Comparison**
-3. 🏆 **Top 10 Products by Sales**
-4. 📦 **Category-wise Sales**
-5. 🌍 **Region-wise Sales**
-6. 📅 **Seasonal Sales Distribution**
-7. 💰 **Profit by Category**
-8. 🔥 **Correlation Heatmap**
+1. **Monthly Sales Trend** 📈
+2. **Yearly Sales Comparison** 📊
+3. **Top 10 Products by Sales** 🏆
+4. **Category-wise Sales** 📦
+5. **Region-wise Sales** 🌍
+6. **Seasonal Sales Distribution** 📅
+7. **Profit by Category** 💰
+8. **Correlation Heatmap** 🔥
 
 ---
 
 ### 📊 Key Insights (Example)
 
-* Sales vary significantly across months indicating **seasonality**
-* Certain products contribute disproportionately to revenue
-* Profit is not always aligned with sales (important business insight)
-* Discounts impact profitability
+- Sales vary significantly across months indicating **seasonality**
+- Certain products contribute disproportionately to revenue
+- Profit is not always aligned with sales (important business insight)
+- Discounts impact profitability
 
 ---
 
@@ -125,10 +125,10 @@ superstore.csv
 
 ### 📸 Sample Visualizations
 
-* Line Chart: Monthly Sales Trend
-* Bar Chart: Yearly Sales
-* Heatmap: Correlation Analysis
-* Boxplot: Seasonal Trends
+- Line Chart: Monthly Sales Trend
+- Bar Chart: Yearly Sales
+- Heatmap: Correlation Analysis
+- Boxplot: Seasonal Trends
 
 ---
 
@@ -149,81 +149,3 @@ superstore.csv
 <img width="1118" height="652" alt="image" src="https://github.com/user-attachments/assets/4fea18f7-ae72-4666-b8fc-e39b34cbcff7" />
 
 ---
----
----
-
-# 📊 Superstore Sales Data Analysis
-
-![Python](https://img.shields.io/badge/Python-3.12-blue)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-green)
-![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-purple)
-
----
-
-## 📌 Project Overview
-This project analyzes a retail **Superstore dataset** to uncover insights into sales trends, product performance, and profitability.
-
----
-
-## 🎯 Objectives
-- Analyze sales trends 📈  
-- Identify top-performing products 🏆  
-- Understand regional performance 🌍  
-- Perform profit analysis 💰  
-- Explore seasonal patterns 📅  
-
----
-
-## 🛠️ Tools & Technologies
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-
----
-
-## 📂 Dataset
-- `superstore.csv`
-- 51,290 rows
-- 27 columns
-
----
-
-## ⚙️ Steps Performed
-### 1. Data Cleaning
-- Converted date columns
-- Removed duplicates
-- Checked missing values
-
-### 2. Feature Engineering
-- Extracted Year, Month, Month Name
-
-### 3. Analysis & Visualization
-- Monthly Sales Trend 📈  
-- Yearly Sales 📊  
-- Top 10 Products 🏆  
-- Category-wise Sales 📦  
-- Region-wise Sales 🌍  
-- Seasonal Analysis 📅  
-- Profit Analysis 💰  
-- Correlation Heatmap 🔥  
-
----
-
-## 📊 Key Insights
-- Sales show seasonal variation  
-- Top products drive majority revenue  
-- Discounts impact profitability  
-- Profit ≠ Sales always  
-
----
-
-## 💾 Output
-- `cleaned_superstore.csv`
-
----
-
-## ▶️ How to Run
-```bash
-pip install pandas matplotlib seaborn
